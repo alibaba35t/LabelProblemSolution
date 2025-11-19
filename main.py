@@ -17,7 +17,7 @@ for i in range(0,length):
     # You can change split method according to your file name
     file_name = str(df["pth"][i]).split("/")[1]
     
-    for root, files in os.walk(root_name):
+    for root, dirs, files in os.walk(root_name):
         if file_name in files:
             # In this dataset, paths like " Test/ anger/ image000000.jpg" 
             # My purpose was find "Test" or "Train" folder 
