@@ -40,6 +40,12 @@ When working with large-scale datasets like AffectNet, `labels.csv` often lacks 
 └── README.md
 ```
 
+## How Can You Use
+
+1. Clone the repo: `git clone https://github.com/alibaba35t/LabelProblemSolution.git`
+2. Install dependencies: `pip install -r requirements.txt`
+
+
 ### 🚀 Performance Benchmark
 By moving from a standard nested loop approach to a pathlib-based mapping, the processing time for 20,000+ rows was reduced significantly, making the data loading pipeline much smoother for FER (Facial Emotion Recognition) models.
 
